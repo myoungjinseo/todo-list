@@ -1,0 +1,96 @@
+#mainTitle {
+	position: relative;
+	top: 10px;
+	text-align: center;
+	font-size: 30px;
+	color: #336699;
+}
+
+#add {
+	position: absolute;
+	top: 50px;
+	right: 25px;
+	width: 250px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 20px;
+	background-color: #99ccff;
+}
+
+#outBox {
+	position: relative;
+	top: 7.7em;
+	left: 8.2em;
+	height: auto;
+}
+
+#TODO {
+	float: left;
+}
+
+#DOING {
+	float: left;
+	margin-left: 1.4em;
+}
+
+#DONE {
+	float: left;
+	margin-left: 1.4em;
+}
+
+.listHeader {
+	background-color: rgb(52, 84, 97);
+	width: 280px;
+	height: 36px;
+	color: white;
+	padding-top: 13px;
+	padding-left: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.item {
+	position: relative;
+	width: 275px;
+	height: 60px;
+	background-color: rgb(206, 229, 239);
+	margin: 10px 0px;
+	padding: 10px;
+}
+
+.item-header {
+	margin: 8px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.item-content {
+	font-size: 13px;
+}
+
+.change {
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+	width: 27px;
+	height: 23px;
+}
+
+html {
+	font-family: "µ¸¿ò", sans-serif;
+}
+
+body {
+	background-color: rgb(236, 240, 238);
+}
+
+#section-style {
+	position: relative;
+	background-color: white;
+	width: 1200px;
+	left: 11%;
+	height: auto;
+}
